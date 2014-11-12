@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpensesAngularApp", "ExpensesAngularApp\ExpensesAngularApp.csproj", "{8AF4EB30-6379-4CCA-B25F-F1BAF83E1CB9}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ExpensesAngularAppTest", "ExpensesAngularAppTest\ExpensesAngularAppTest.njsproj", "{FF29EA04-CDB1-4937-914D-7BFAB18D094F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AF4EB30-6379-4CCA-B25F-F1BAF83E1CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF4EB30-6379-4CCA-B25F-F1BAF83E1CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF4EB30-6379-4CCA-B25F-F1BAF83E1CB9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8AF4EB30-6379-4CCA-B25F-F1BAF83E1CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF4EB30-6379-4CCA-B25F-F1BAF83E1CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF4EB30-6379-4CCA-B25F-F1BAF83E1CB9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FF29EA04-CDB1-4937-914D-7BFAB18D094F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF29EA04-CDB1-4937-914D-7BFAB18D094F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF29EA04-CDB1-4937-914D-7BFAB18D094F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF29EA04-CDB1-4937-914D-7BFAB18D094F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

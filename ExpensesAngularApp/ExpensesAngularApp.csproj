@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8AF4EB30-6379-4CCA-B25F-F1BAF83E1CB9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ExpensesAngularApp</RootNamespace>
+    <AssemblyName>ExpensesAngularApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>12.1</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{4be8a38d-144d-40e2-b127-f8d8bb722f2c}</AppFeaturePartId>
+    <WspPartId>{37c80f87-9da1-4538-a0a7-26524505fe04}</WspPartId>
+    <WorkflowPartId>{ea899201-5897-4f47-9086-50df5a1f901a}</WorkflowPartId>
+    <CspkgPartId>{c90f26eb-1d2e-4640-b5d1-8e96645ca0f5}</CspkgPartId>
+    <SqlPackagePartId>{4da951d7-6291-4669-9b07-6eec4d014fc2}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{913388f9-b667-4bd2-981d-86f621337007}</SharePointProjectItemId>
+    </None>
+    <None Include="fonts\fontawesome-webfont.eot" />
+    <None Include="fonts\fontawesome-webfont.ttf" />
+    <None Include="fonts\fontawesome-webfont.woff" />
+    <None Include="fonts\FontAwesome.otf" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{af68936f-7b4f-412d-be9f-88f1810e7fa3}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4c4552b7-b650-4389-ad7f-1a5ef6a762a3}</SharePointProjectItemId>
+    </None>
+    <None Include="Scripts\angular-animate.min.js.map" />
+    <None Include="Scripts\angular-cookies.min.js.map" />
+    <None Include="Scripts\angular-resource.min.js.map" />
+    <None Include="Scripts\angular-route.min.js.map" />
+    <None Include="Scripts\angular-sanitize.min.js.map" />
+    <None Include="Scripts\angular.min.js.map" />
+    <None Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Scripts\moment.min.js.map" />
+    <None Include="Scripts\ShareCoffee\ShareCoffee.js.map" />
+    <None Include="Scripts\ShareCoffee\ShareCoffee.src.coffee" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{24e1cfef-bb64-4d87-ac16-ce47ad43a534}</SharePointProjectItemId>
+    </None>
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1ad0f869-aa3c-41a9-befa-be530d66c0a7}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{caefb34f-3a3e-4f86-ac8c-26bd250bef7c}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{ac105b1a-511c-477e-a1d3-0f5feac649b4}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App\app.js" />
+    <Content Include="App\appLauncher.js" />
+    <Content Include="App\common\common.js" />
+    <Content Include="App\common\logger.js" />
+    <Content Include="App\config.angular.http.js" />
+    <Content Include="App\config.exceptionHandler.js" />
+    <Content Include="App\config.js" />
+    <Content Include="App\config.route.js" />
+    <Content Include="App\dashboard\dashboard.html" />
+    <Content Include="App\dashboard\dashboard.js" />
+    <Content Include="App\Expenses\expenseitem.html" />
+    <Content Include="App\Expenses\expenseItem.js" />
+    <Content Include="App\Expenses\expenses.html" />
+    <Content Include="App\Expenses\expenses.js" />
+    <Content Include="App\layout\header.html" />
+    <Content Include="App\layout\header.js" />
+    <Content Include="App\layout\quicklaunch.html" />
+    <Content Include="App\layout\quicklaunch.js" />
+    <Content Include="App\layout\shell.html" />
+    <Content Include="App\layout\shell.js" />
+    <Content Include="App\layout\spAppChrome.html" />
+    <Content Include="App\layout\spAppChrome.js" />
+    <Content Include="App\layout\workingonit.html" />
+    <Content Include="App\layout\workingonit.js" />
+    <Content Include="App\models\expenseItemModel.js" />
+    <Content Include="App\Protractor\Protractor.html" />
+    <Content Include="App\Protractor\Protractor.js" />
+    <Content Include="App\services\datacontext.angular.js" />
+    <Content Include="App\services\spContext.js" />
+    <Content Include="App\util\jquery-extensions.js" />
+    <Content Include="Content\App.css" />
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Elements.xml" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="Images\AppIcon.png" />
+    <Content Include="Images\Elements.xml" />
+    <Content Include="Images\error.png" />
+    <Content Include="Images\info.png" />
+    <Content Include="Images\success.png" />
+    <Content Include="Images\warning.png" />
+    <Content Include="Pages\app.html" />
+    <Content Include="Pages\appLauncher.html" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Scripts\angular-animate.js" />
+    <Content Include="Scripts\angular-animate.min.js" />
+    <Content Include="Scripts\angular-cookies.js" />
+    <Content Include="Scripts\angular-cookies.min.js" />
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular-resource.js" />
+    <Content Include="Scripts\angular-resource.min.js" />
+    <Content Include="Scripts\angular-route.js" />
+    <Content Include="Scripts\angular-route.min.js" />
+    <Content Include="Scripts\angular-sanitize.js" />
+    <Content Include="Scripts\angular-sanitize.min.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\moment-with-langs.js" />
+    <Content Include="Scripts\moment-with-langs.min.js" />
+    <Content Include="Scripts\moment.js" />
+    <Content Include="Scripts\moment.min.js" />
+    <Content Include="Scripts\ShareCoffee\ShareCoffee.js" />
+    <Content Include="Scripts\ShareCoffee\ShareCoffee.min.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

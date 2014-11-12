@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="caefb34f-3a3e-4f86-ac8c-26bd250bef7c" 
+        solutionId="caefb34f-3a3e-4f86-ac8c-26bd250bef7c" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="ExpensesAngularApp"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="ac105b1a-511c-477e-a1d3-0f5feac649b4" />
+  </features>
+</package>
