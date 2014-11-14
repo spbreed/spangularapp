@@ -11,8 +11,8 @@ BDD (Behaviour Driven Development) and TDD ( Test Driven Development) has become
 I was intrigued to discover #Protractor, an AngularJS testing framework. With client side MVC/MVVM frameworks getting popular among the developers, AngularJS is the premier framework to develop Office365/SharePoint 2013 apps. Integrating TDD methodologies to app development model will help developers to deliver maintainable, flexible and extensible solutions and interfaces.
 
 This repo have two projects
-1. ExpensesAngularApp
-2. ExpensesAngularApp test
+  - ExpensesAngularApp
+  - ExpensesAngularApp test
 
 1. Expenses AngularApp:
 =======================
