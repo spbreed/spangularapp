@@ -1,7 +1,11 @@
 spangularapp
 ============
 Presentation and training videos of this project is available here:
+[![screenshot][2]][1]
+ [1]: http://stackoverflow.com
+ [2]: [https://spbreed.files.wordpress.com/2014/11/protractor.png?w=676
 [![presentation][https://spbreed.files.wordpress.com/2014/11/protractor.png?w=676]][Presentation]
+
 http://spbreed.github.io/index.html
 
 BDD (Behaviour Driven Development) and TDD ( Test Driven Development) has become cornerstone for modern Javascript app development but adopting these development strategies to SharePoint/Office 365 is not a trivial task.
