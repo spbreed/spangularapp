@@ -1,6 +1,7 @@
 spangularapp
 ============
 Presentation and training videos of this project is available here:
+
 [![presentation](https://spbreed.files.wordpress.com/2014/11/protractor.png?w=676)](https://spbreed.github.io/index.html)
 
 http://spbreed.github.io/index.html
