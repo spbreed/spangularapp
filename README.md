@@ -1,10 +1,5 @@
 spangularapp
 ============
-Presentation and training videos of this project is available here:
-
-[![presentation](https://spbreed.files.wordpress.com/2014/11/protractor.png?w=676)](https://spbreed.github.io/index.html)
-
-http://spbreed.github.io/index.html
 
 BDD (Behaviour Driven Development) and TDD ( Test Driven Development) has become cornerstone for modern Javascript app development but adopting these development strategies to SharePoint/Office 365 is not a trivial task.
 
@@ -27,3 +22,8 @@ This repo have two projects
   - Utilizes [Protractor](https://github.com/angular/protractor) framework to do E2E testing 
   - [Jasmine](https://github.com/pivotal/jasmine) is used to write test specs
 
+Presentation and training videos of this project is available here:
+
+[![presentation](https://spbreed.files.wordpress.com/2014/11/protractor.png?w=676)](https://spbreed.github.io/index.html)
+
+http://spbreed.github.io/index.html
